@@ -4,6 +4,11 @@ var abcLower = "abcdefghijklmnopqrstuvwxyz";
 var num = "0123456789";
 var sym = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
 
+//Array
+var upperArray = abcUpper.split("");	
+var lowerArray = abcLower.split("");	
+var numberArray = num.split("");		
+var symbolArray = sym.split("");
 
 // Password Generation
 function generate(){
@@ -14,12 +19,12 @@ function generate(){
 
 var passwordLength = prompt("How many characters would you like your password to be?")
 
- if (passwordLength < 6){
-  alert("Number has to be between 6-120 characters");
+ if (passwordLength < 8){
+  alert("Number has to be between 8-128 characters");
   determineLength();
 
-} else if (passwordLength > 120){
-  alert("Number has to be between 6-120 characters");
+} else if (passwordLength > 128){
+  alert("Number has to be between 8-128 characters");
   determineLength();
 }
 
