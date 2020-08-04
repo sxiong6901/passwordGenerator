@@ -1,12 +1,9 @@
 // Variables
 var abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var upperArray = abcUpper.split("");
 var abcLower = "abcdefghijklmnopqrstuvwxyz";
-var lowerArray = abcLower.split("");
 var num = "0123456789";
-var numberArray = num.split("");
 var sym = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
-var symbolArray = sym.split("");
+
 
 // Password Generation
 function generate(){
@@ -18,11 +15,11 @@ function generate(){
 var passwordLength = prompt("How many characters would you like your password to be?")
 
  if (passwordLength < 6){
-  alert("Password length must be a number between 6-120 characters");
+  alert("Number has to be between 6-120 characters");
   determineLength();
 
 } else if (passwordLength > 120){
-  alert("Password length must be a number between 6-120 characters");
+  alert("Number has to be between 6-120 characters");
   determineLength();
 }
 
