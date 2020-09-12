@@ -20,3 +20,7 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
+Deloy page: https://sxiong6901.github.io/passwordGenerator/
+Github Page: https://github.com/sxiong6901/passwordGenerator
+
+![myimage-alt-tag](https://github.com/sxiong6901/aboutMe/blob/master/assets/pwGen.JPG?raw=true)
